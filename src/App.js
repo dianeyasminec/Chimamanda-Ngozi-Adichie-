@@ -15,9 +15,6 @@ function App() {
     <Router>
         <Navigation />
        
-          {/* <Route   >
-            <Home img={img} />
-            </Route> */}
           <Route exact path='/'>
             <Books details={details.books} img={img}/>
             </Route>
