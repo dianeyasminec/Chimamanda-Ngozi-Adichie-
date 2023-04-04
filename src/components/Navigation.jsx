@@ -14,7 +14,7 @@ export default function Navigation() {
           <Navbar.Brand href="#home">Chimamanda Ngozie Adichie</Navbar.Brand>
           <Nav className="me-auto">
             {/* <Nav.Link href="/">Home</Nav.Link> */}
-            <Nav.Link href="/books">Bio</Nav.Link>
+            <Nav.Link href="#home">Bio</Nav.Link>
             {/* <Nav.Link href="/favoritesSongs">Favorites Song</Nav.Link> */}
           </Nav>
           <Navbar.Toggle />
