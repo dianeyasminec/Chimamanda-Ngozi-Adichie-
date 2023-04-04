@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* Styles for desktop screens */
+@media only screen and (min-width: 768px) {
+  /* Add your desktop styles here */
+}
+
+/* Styles for tablet screens */
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+  .homepage-image {
+    max-width: 100%; /* Full width on mobile devices */
+  }
+  /* Add your tablet styles here */
+}
+
+/* Styles for mobile screens */
+@media only screen and (max-width: 479px) {
+  /* Add your mobile styles here */
+}
